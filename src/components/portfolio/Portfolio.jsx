@@ -127,16 +127,16 @@ function Portfolio() {
           <div className="filtering text-center col-12">
             <div className="filter box">
               <span data-filter="*" className="active">
-                All
+                Все
               </span>
               <span data-filter=".interior" className="">
-                Interior
+                Здания
               </span>
               <span data-filter=".theaters" className="">
-                Theaters
+                Театры
               </span>
               <span data-filter=".residential" className="">
-                Residential
+                Жилые дома
               </span>
             </div>
           </div>
@@ -156,8 +156,8 @@ function Portfolio() {
                 </a>
               </div>
               <div className="info mt-10">
-                <h5>Fantastic interior</h5>
-                <span>Interior Design</span>
+                <h5>Фантастический экстерьер</h5>
+                <span>Экстерьер Дизайн</span>
               </div>
             </div>
           </div>

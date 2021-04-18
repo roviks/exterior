@@ -64,9 +64,13 @@ function Contact() {
               <div className="item">
                 <i class="fas icon fa-mobile-alt"></i>
                 <div className="cont">
-                  <h6 className="custom-font">Call Us</h6>
-                  <p>+7 (111) 1234 56789</p>
-                  <p>+1 (000) 9876 54321</p>
+                  <h6 className="custom-font">Позвоните мне</h6>
+                  <p>
+                    <a href="tel:+998993111155">+998 (99) 311 11-55</a>
+                  </p>
+                  <p>
+                    <a href="tel:+998712654700">+998 (71) 265 47-00</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -74,21 +78,26 @@ function Contact() {
               <div className="item">
                 <i class="far icon fa-envelope-open"></i>
                 <div className="cont">
-                  <h6 className="custom-font">Email Us</h6>
-                  <p>contact@Archo.com</p>
-                  <p>Username@website.com</p>
+                  <h6 className="custom-font">Напишите мне</h6>
+                  <p>
+                    <a href="mailto:a.odilov228@gmail.com">
+                      a.odilov228@gmail.com
+                    </a>
+                  </p>
+                  <p>
+                    <a href="mailto:admin@enteriordesigner.uz">
+                      admin@enteriordesigner.uz
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="item">
-              <i class="fas icon fa-map"></i>
+                <i class="fas icon fa-map"></i>
                 <div className="cont">
-                  <h6 className="custom-font">Address</h6>
-                  <p>
-                    B17 Princess Road, London, Greater London NW18JR, United
-                    Kingdom
-                  </p>
+                  <h6 className="custom-font">Адрес</h6>
+                  <p>г. Ташкент, 100200, проспект Амира Темура, 108</p>
                 </div>
               </div>
             </div>
@@ -112,7 +121,7 @@ function Contact() {
                     id="form_name"
                     type="text"
                     name="name"
-                    placeholder="Name"
+                    placeholder="Ваше имя"
                     required="required"
                   />
                 </div>
@@ -121,7 +130,7 @@ function Contact() {
                     id="form_email"
                     type="email"
                     name="email"
-                    placeholder="Email"
+                    placeholder="Ваша почта"
                     required="required"
                   />
                 </div>
@@ -129,13 +138,13 @@ function Contact() {
                   <textarea
                     id="form_message"
                     name="message"
-                    placeholder="Message"
+                    placeholder="Сообщение"
                     rows="4"
                     required="required"
                   ></textarea>
                 </div>
                 <button type="submit" className="btn-curve btn-color disabled">
-                  <span>Send Message</span>
+                  <span>Отправить</span>
                 </button>
               </div>
             </form>

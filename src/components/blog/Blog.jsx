@@ -144,7 +144,7 @@ function Blog() {
                         what you are doing.
                       </p>
                       <Link to="/blog-details" className="more">
-                        Read More
+                        Подробнее
                       </Link>
                     </div>
                   </div>
@@ -191,7 +191,7 @@ function Blog() {
                         what you are doing.
                       </p>
                       <Link to="/blog-details" className="more">
-                        Read More
+                        Подробнее
                       </Link>
                     </div>
                   </div>
@@ -238,7 +238,7 @@ function Blog() {
                         what you are doing.
                       </p>
                       <Link to="/blog-details" className="more">
-                        Read More
+                        Подробнее
                       </Link>
                     </div>
                   </div>
@@ -285,7 +285,7 @@ function Blog() {
                         what you are doing.
                       </p>
                       <Link to="/blog-details" className="more">
-                        Read More
+                        Подробнее
                       </Link>
                     </div>
                   </div>

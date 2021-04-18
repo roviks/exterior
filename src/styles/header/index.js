@@ -9,6 +9,21 @@ export const Header = styled.header`
       min-height: 100vh;
       position: relative;
       opacity: 0 !important;
+      .bg-img {
+        height: 100vh;
+        background-position: center;
+        background-image: url(${require("../../assets/imgs/1.jpg").default});
+        position: relative;
+        &::before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          content: "";
+          background-color: rgba(0, 0, 0, 0.65);
+        }
+      }
       &-active {
         opacity: 1 !important;
       }
@@ -33,6 +48,7 @@ export const Header = styled.header`
         right: 40px;
         font-size: 40px;
         font-weight: 400;
+        z-index: 5;
         font-family: var(--tekoFont);
       }
     }
@@ -53,7 +69,6 @@ export const Header = styled.header`
           font-weight: 100;
         }
       }
-      
     }
   }
 `;
@@ -151,7 +166,7 @@ export const Icons = styled.div`
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   padding: 0 20px;
-  
+
   a {
     margin: 0 10px;
     color: #fff;
@@ -164,7 +179,6 @@ export const Icons = styled.div`
       text-align: center;
       border: 1px solid #fff;
       border-radius: 50%;
-      
     }
   }
 `;
@@ -197,7 +211,6 @@ export const Search = styled.div`
       display: none;
     }
     @media (min-width: 993px) {
-
       position: fixed;
       width: 100%;
       height: 100vh;
@@ -254,15 +267,15 @@ export const Search = styled.div`
 `;
 
 export const ButtonToggler = styled.button`
-    display: block;
-    padding: .25rem .75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    color: #fff;
-    @media (min-width: 992px) {
-      display: none;
-    }
+  display: block;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #fff;
+  @media (min-width: 992px) {
+    display: none;
+  }
 `;

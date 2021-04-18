@@ -2,7 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 import { Section } from "../../../styles/section";
-export const BlogDetailsStyle = styled(Section)`
+const BlogDetailsStyle = styled(Section)`
   .comments-area {
     margin-top: 80px;
     h5 {
@@ -189,7 +189,8 @@ export const BlogDetailsStyle = styled(Section)`
       textarea {
         height: 140px;
       }
-      textarea, input {
+      textarea,
+      input {
         width: 100%;
         padding: 17px;
         font-size: inherit;
@@ -217,7 +218,7 @@ export const BlogDetailsStyle = styled(Section)`
   .btn-lg {
     font-size: 1.25rem;
     line-height: 1.5;
-    border-radius: .3rem;
+    border-radius: 0.3rem;
   }
 `;
 
@@ -229,20 +230,20 @@ function Blog() {
           <div className="col-lg-11">
             <div className="post">
               <div className="title-head">
-                <h2>Build a Beautiful Blog With Ease</h2>
+                <h2>Создайте красивый блог с легкостью</h2>
                 <div className="info">
                   <p>
-                    <a href="#0">Alex Smith</a>/<a href="#0">August 6 , 2019</a>
-                    /<a href="#0">Web Design</a>
+                    <a href="#0">Абдурахмон Одилов</a>/
+                    <a href="#0">Авг 6, 2019</a>/
+                    <a href="#0">Экстерьер дизайнер</a>
                   </p>
                 </div>
               </div>
               <div className="img main-img">
-                <div className="simpleParallax">
+                <div>
                   <img
                     src={require("../../../assets/imgs/blog-1.jpg").default}
                     alt=""
-                    className="thumparallax"
                   />
                 </div>
               </div>
@@ -252,63 +253,65 @@ function Blog() {
                     <div className="cont">
                       <div className="spacial">
                         <p>
-                          Never ever think of giving up. Winners never quit and
-                          quitters never win. Take all negative words out of
-                          your mental dictionary and focus on the solutions with
-                          utmost conviction and patience. The battle is never
-                          lost until you’ve abandon your vision.
+                          Никогда не думай сдаваться. Победители никогда не
+                          сдаются и бросающие курить никогда не выигрывают.
+                          Уберите все негативные слова из свой мысленный словарь
+                          и сосредоточьтесь на решениях с предельная
+                          убежденность и терпение. Битва никогда не бывает
+                          потеряны, пока вы не откажетесь от своего видения.
                         </p>
                       </div>
                       <p>
-                        the main component of a healthy environment for self
-                        esteem is that it needs be nurturing. The main compont
-                        of a healthy environment for self esteem is that it
-                        needs be nurturing. The main component of a healthy env
-                        for self esteem The main compont be nurturing It should
-                        provide unconditional warmth. The main component of a
-                        healthy env for self esteem The main compont be
-                        nurturing It should provide unconditional
+                        Основная составляющая здоровой окружающей среды для себя
+                        уважение в том, что его нужно воспитывать. Главный
+                        компонент здоровой среды для самоуважения заключается в
+                        том, что необходимо заботиться. Главный компонент
+                        здоровой окружающей среды для самооценки. обеспечивают
+                        безусловное тепло. Главный компонент здоровая среда для
+                        самооценки. воспитание Оно должно обеспечивать
+                        безусловное
                       </p>
 
-                      <h6>- We all intend to plan ahead.</h6>
+                      <h6>- Мы все планируем заранее.</h6>
 
                       <p>
-                        We all intend to plan ahead, but too often let the
-                        day-to-day minutia get in the way of making a calendar
-                        for the year. Sure, you can’t know every detail to
-                        anticipate. Heck, you can’t know half the priorities
-                        that will pop up in any particular month. But you can
-                        plan for big picture seasonality, busy-times, and
-                        events.
+                        Мы все намерены планировать наперед, но слишком часто
+                        позволяем повседневные мелочи мешают составлению
+                        календаря на год. Конечно, вы не можете знать все
+                        детали, чтобы предвидеть. Черт возьми, ты не можешь
+                        знать половину приоритетов который появится в любом
+                        конкретном месяце. Но ты можешь спланировать сезонность,
+                        загруженность и события.
                       </p>
 
                       <ul>
                         <li>
-                          <span>01</span> Integer in volutpat libero.
+                          <span>01</span> Далеко-далеко за словесными горами.
                         </li>
                         <li>
-                          <span>02</span> Vivamus maximus ultricies pulvinar.
+                          <span>02</span> Далеко-далеко, за словесными.
                         </li>
                         <li>
-                          <span>03</span> priorities that will pop up in any
-                          particular month.
+                          <span>03</span> Далеко-далеко за словесными горами в
+                          стране. particular month.
                         </li>
                         <li>
-                          <span>04</span> We all intend to plan ahead.
+                          <span>04</span>Далеко-далеко за словесными горами в
+                          стране гласных.
                         </li>
                         <li>
-                          <span>05</span> The main component of a healthy env
-                          for self esteem.
+                          <span>05</span> Далеко-далеко, за.
                         </li>
                       </ul>
 
                       <div className="quotes text-center">
                         <p>
-                          Never ever think of giving up. Winners never quit and
-                          quitters never win. Take all negative words out of
-                          your mental dictionary and focus on the solutions with
-                          utmost conviction and patience. The battle is never
-                          lost until you’ve abandon your vision.
+                          Никогда не думай сдаваться. Победители никогда не
+                          сдаются и бросающие курить никогда не выигрывают.
+                          Уберите все негативные слова из свой мысленный словарь
+                          и сосредоточьтесь на решениях с предельная
+                          убежденность и терпение. Битва никогда не бывает
+                          потеряны, пока вы не откажетесь от своего видения.
                         </p>
                       </div>
                       <div className="row">
@@ -324,13 +327,13 @@ function Blog() {
                         </div>
                       </div>
                       <p>
-                        We all intend to plan ahead, but too often let the
-                        day-to-day minutia get in the way of making a calendar
-                        for the year. Sure, you can’t know every detail to
-                        anticipate. Heck, you can’t know half the priorities
-                        that will pop up in any particular month. But you can
-                        plan for big picture seasonality, busy-times, and
-                        events.
+                        Мы все намерены планировать наперед, но слишком часто
+                        позволяем повседневные мелочи мешают составлению
+                        календаря на год. Конечно, вы не можете знать все
+                        детали, чтобы предвидеть. Черт возьми, ты не можешь
+                        знать половину приоритетов который появится в любом
+                        конкретном месяце. Но ты можешь спланировать сезонность,
+                        загруженность и События.
                       </p>
                       <div className="share-info">
                         <div className="social">
@@ -356,12 +359,12 @@ function Blog() {
                       </div>
                       <div className="info">
                         <h6>
-                          <span>author :</span> Jorden Griffin
+                          <span>Автор:</span> Абдурахмон Одилов
                         </h6>
                         <p>
-                          the main component of a healthy environment for self
-                          esteem is that it needs be nurturing. The main compont
-                          of a healthy environment.
+                          основная составляющая здоровой окружающей среды для
+                          себя уважение в том, что его нужно воспитывать.
+                          Главный компонент здоровой окружающей среды.
                         </p>
                         <div className="social">
                           <a href="#0">
@@ -381,96 +384,105 @@ function Blog() {
               </div>
 
               <div className="comments-area">
-                <h5>Comments :</h5>
+                <h5>Комментарии:</h5>
                 <div className="item">
                   <div className="comment-img">
-                  <img src={require("../../../assets/imgs/avatar-1.jpg").default} alt="" />
+                    <img
+                      src={require("../../../assets/imgs/avatar-1.jpg").default}
+                      alt=""
+                    />
                   </div>
                   <div className="info">
                     <h6>
-                      Jorden Griffin<span> 6 Aug 2019</span>
+                      Джон Смит<span> 6 авг 2019</span>
                     </h6>
                     <span className="replay">
                       <a href="#0">
-                        Replay <i className="fas fa-reply"></i>
+                        Ответить <i className="fas fa-reply"></i>
                       </a>
                     </span>
                     <p>
-                      the main component of a healthy environment for self
-                      esteem is that it needs be nurturing. The main compont of
-                      a healthy environment.
+                      Далеко-далеко за словесными горами в стране гласных и
+                      согласных живут рыбные тексты. Своего рекламных власти
+                      вопрос города раз гор большой правилами образ!
                     </p>
                   </div>
                 </div>
                 <div className="item relped">
                   <div className="comment-img">
-                  <img src={require("../../../assets/imgs/avatar-1.jpg").default} alt="" />
+                    <img
+                      src={require("../../../assets/imgs/avatar-1.jpg").default}
+                      alt=""
+                    />
                   </div>
                   <div className="info">
                     <h6>
-                      Jorden Griffin<span> 6 Aug 2019</span>
+                      Джон Смит<span> 6 авг 2019</span>
                     </h6>
                     <span className="replay">
                       <a href="#0">
-                        Replay <i className="fas fa-reply"></i>
+                        Ответить <i className="fas fa-reply"></i>
                       </a>
                     </span>
                     <p>
-                      the main component of a healthy environment for self
-                      esteem is that it needs be nurturing. The main compont of
-                      a healthy environment.
+                      Далеко-далеко за словесными горами в стране гласных и
+                      согласных живут рыбные тексты. Своего рекламных власти
+                      вопрос города раз гор большой правилами образ!
                     </p>
                   </div>
                 </div>
                 <div className="item">
                   <div className="comment-img">
-                  <img src={require("../../../assets/imgs/avatar-1.jpg").default} alt="" />
+                    <img
+                      src={require("../../../assets/imgs/avatar-1.jpg").default}
+                      alt=""
+                    />
                   </div>
                   <div className="info">
                     <h6>
-                      Jorden Griffin<span> 6 Aug 2019</span>
+                      Джон Смит<span> 6 авг 2019</span>
                     </h6>
                     <span className="replay">
                       <a href="#0">
-                        Replay <i className="fas fa-reply"></i>
+                        Ответить <i className="fas fa-reply"></i>
                       </a>
                     </span>
                     <p>
-                      the main component of a healthy environment for self
-                      esteem is that it needs be nurturing. The main compont of
-                      a healthy environment.
+                      Далеко-далеко за словесными горами в стране гласных и
+                      согласных живут рыбные тексты. Своего рекламных власти
+                      вопрос города раз гор большой правилами образ!
                     </p>
                   </div>
                 </div>
               </div>
 
               <div className="comment-form">
-                <h5>Add Comment :</h5>
+                <h5>Добавить коммент:</h5>
                 <div className="form">
                   <form action="">
                     <div className="row">
                       <div className="col-12">
                         <div className="form-group">
                           <textarea
-                            placeholder="Your Comment"
+                            placeholder="Ваш коммент"
                             spellcheck="false"
                           ></textarea>
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="form-group">
-                          <input type="text" placeholder="Your Name" />
+                          <input type="text" placeholder="Ваше имя" />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="form-group">
-                          <input type="email" placeholder="Your Email" />
+                          <input type="email" placeholder="Ваша почта" />
                         </div>
                       </div>
                       <div className="col-12">
                         <div className="form-group">
                           <button className="btn-curve btn-blc btn-lg">
-                            <span>Submit</span>
+                            <span>Отправить</span>
                           </button>
                         </div>
                       </div>

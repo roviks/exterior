@@ -1,6 +1,6 @@
 import React from "react";
 import { Section, SectionTitle } from "../../styles/section";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ServicesStyle = styled(Section)`
   h6 {
@@ -12,20 +12,20 @@ export const ServicesStyle = styled(Section)`
     background-color: #fff;
     border: 1px solid #eee;
     border-right: 0;
-    transition: all .4s;
+    transition: all 0.4s;
     &.bg-img {
       position: relative;
       border: 0;
       z-index: 2;
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         background: #fff;
-        transition: all .4s;
+        transition: all 0.4s;
         z-index: -1;
       }
     }
@@ -39,7 +39,7 @@ export const ServicesStyle = styled(Section)`
         color: #b19777;
       }
       .more {
-        color: #b19777
+        color: #b19777;
       }
     }
     .more {
@@ -56,9 +56,8 @@ export const ServicesStyle = styled(Section)`
     }
   }
   i.icon {
-    font-size: 60px; 
+    font-size: 60px;
   }
-  
 `;
 
 function Services() {
@@ -66,48 +65,72 @@ function Services() {
     <ServicesStyle className="services section-padding bg-gray">
       <div className="container">
         <SectionTitle className="section-head text-center">
-          <h6 className="custom-font">Best Features</h6>
-          <h4 className="playfont">My Services</h4>
+          <h6 className="custom-font"> Лучшие возможности </h6>
+          <h4 className="playfont"> Мои услуги </h4>
         </SectionTitle>
         <div className="row">
           <div className="col-lg-4">
-            <div className="item-bx bg-img" style={{backgroundImage: `url(${require("../../assets/imgs/1.jpg").default})`}}>
+            <div
+              className="item-bx bg-img"
+              style={{
+                backgroundImage: `url(${
+                  require("../../assets/imgs/1.jpg").default
+                })`,
+              }}
+            >
               <i className="icon flaticon-building"></i>
-              <h6 className="mb-20">Architecture</h6>
+              <h6 className="mb-20">Архитектура</h6>
               <p>
-                Cras mollis turpis a ipsum ultes, nec cond imentum ipsum
-                consequat.
+                Далеко-далеко за словесными горами в стране гласных и согласных
+                живут рыбные тексты. Языком продолжил вскоре единственное дал
+                решила дороге вершину повстречался имени.
               </p>
               <a href="#0" className="more custom-font mt-30">
-                Read More
+                Подробнее
               </a>
             </div>
           </div>
 
           <div className="col-lg-4">
-            <div className="item-bx bg-img" style={{backgroundImage: `url(${require("../../assets/imgs/2.jpg").default})`}}>
+            <div
+              className="item-bx bg-img"
+              style={{
+                backgroundImage: `url(${
+                  require("../../assets/imgs/2.jpg").default
+                })`,
+              }}
+            >
               <i className="icon flaticon-house"></i>
-              <h6 className="mb-20">Interior Design</h6>
+              <h6 className="mb-20">Экстерьер дизайн</h6>
               <p>
-                Cras mollis turpis a ipsum ultes, nec cond imentum ipsum
-                consequat.
+                Далеко-далеко за словесными горами в стране гласных и согласных
+                живут рыбные тексты. Даже великий, семь речью предупредила на
+                берегу текст переписали своего там?
               </p>
               <a href="#0" className="more custom-font mt-30">
-                Read More
+                Подробнее
               </a>
             </div>
           </div>
 
           <div className="col-lg-4">
-            <div className="item-bx bg-img" style={{backgroundImage: `url(${require("../../assets/imgs/3.jpg").default})`}}>
+            <div
+              className="item-bx bg-img"
+              style={{
+                backgroundImage: `url(${
+                  require("../../assets/imgs/3.jpg").default
+                })`,
+              }}
+            >
               <i className="icon flaticon-plan"></i>
-              <h6 className="mb-20">3D Modeling</h6>
+              <h6 className="mb-20">3Д моделирование</h6>
               <p>
-                Cras mollis turpis a ipsum ultes, nec cond imentum ipsum
-                consequat.
+                Далеко-далеко за словесными горами в стране гласных и согласных,
+                живут рыбные тексты. Свой, семантика пунктуация прямо грамматики
+                коварный дал толку рекламных продолжил.
               </p>
               <a href="#0" className="more custom-font mt-30">
-                Read More
+                Подробнее
               </a>
             </div>
           </div>

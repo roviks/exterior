@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
   .btn {
@@ -6,7 +6,7 @@ export const Global = createGlobalStyle`
       background: transparent;
       padding: 12px 35px;
       border: 1px solid #1e1e1e;
-      font-family: 'Teko', sans-serif;
+      font-family:  var(--tekoFont);
       position: relative;
       overflow: hidden;
       cursor: pointer;
@@ -16,7 +16,7 @@ export const Global = createGlobalStyle`
       span {
         font-size: 18px;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         position: relative;
         z-index: 2;
         transition: all .4s;

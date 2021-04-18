@@ -1,5 +1,5 @@
 import React from "react";
-import styled from 'styled-components';
+import styled from "styled-components";
 import { Section } from "../../styles/section";
 
 export const NumbersStyle = styled(Section)`
@@ -15,7 +15,7 @@ export const NumbersStyle = styled(Section)`
       padding: 20px 10px;
       z-index: 2;
       opacity: 0;
-      transition: all .4s;
+      transition: all 0.4s;
     }
     h6 {
       font-size: 12px;
@@ -43,7 +43,7 @@ export const NumbersStyle = styled(Section)`
       border-top: 35px solid transparent;
       border-right: 35px solid #f7f7f7;
       bottom: 35px;
-      content: '';
+      content: "";
       position: absolute;
       right: 20%;
       z-index: -1;
@@ -53,7 +53,7 @@ export const NumbersStyle = styled(Section)`
       height: 35px;
       bottom: 0;
       background: #f7f7f7;
-      content: '';
+      content: "";
       position: absolute;
       right: 20%;
       z-index: -1;
@@ -71,7 +71,7 @@ function Numbers() {
               <h3>
                 <span className="nbr custom-font">352</span>
               </h3>
-              <h6>Projects Completed</h6>
+              <h6>Завершенных проектов</h6>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -79,16 +79,16 @@ function Numbers() {
               <h3>
                 <span className="nbr custom-font">567</span>
               </h3>
-              <h6>Satisfied Clients</h6>
+              <h6>Довольных клиентов</h6>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item">
               <h3>
                 <span className="nbr custom-font">656</span>
-                <i>M</i>
+                <i>$</i>
               </h3>
-              <h6>Monthly Revenue</h6>
+              <h6>Ежемесячный доход</h6>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -96,7 +96,7 @@ function Numbers() {
               <h3>
                 <span className="nbr custom-font">17</span>
               </h3>
-              <h6>Awards Won</h6>
+              <h6>Наград выигранно</h6>
             </div>
           </div>
         </div>

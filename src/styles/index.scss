@@ -1,8 +1,28 @@
+@font-face {
+  font-family: "Cuprum Bold";
+  src: url("../assets/webfonts/Cuprum-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Cuprum";
+  src: url("../assets/webfonts/Cuprum-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../assets/webfonts/NotoSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans Bold";
+  src: url("../assets/webfonts/NotoSans-Bold.ttf");
+}
+
 :root {
-  --fontFamilyRegular: "Poppins", sans-serif;
-  --fontFamilyBold: "Poppins", sans-serif;
+  --fontFamilyRegular: "Noto Sans", sans-serif;
+  --fontFamilyBold: "Noto Sans Bold", sans-serif;
   --playFont: 'Playfair Display', serif;
-  --tekoFont: "Teko", sans-serif;
+  --tekoFont: "Cuprum", sans-serif;
 }
 
 body {
@@ -14,38 +34,45 @@ body {
   &-20 {
     margin-top: 20px;
   }
+
   &-30 {
     margin-top: 30px;
   }
+
   &-50 {
     margin-top: 50px;
   }
 }
+
 .pb-80 {
   padding-bottom: 80px;
 }
+
 .pt {
   &-20 {
     padding-top: 20px;
-  } 
+  }
+
   &-80 {
     padding-top: 80px;
   }
 }
+
 .fz {
   &-50 {
-    font-size: 50px!important;
+    font-size: 50px !important;
   }
 }
 
 .no-scroll {
-  overflow: hidden!important;
+  overflow: hidden !important;
 }
 
 .mb {
   &-20 {
     margin-bottom: 20px;
   }
+
   &-80 {
     margin-bottom: 80px;
   }
@@ -74,17 +101,21 @@ img {
   &-center {
     text-align: center;
   }
+
   &-right {
     text-align: right;
   }
 }
+
 .valign {
   display: flex;
   align-items: center;
 }
+
 .pages-header {
   height: 75vh;
   position: relative;
+
   &::before {
     content: '';
     position: absolute;
@@ -96,19 +127,23 @@ img {
     opacity: 0.5;
     z-index: 0;
   }
+
   .cont {
     h1 {
       font-size: 75px;
       margin-bottom: 20px;
       color: #fff;
     }
+
     .path {
       color: #fff;
       font-size: 17px;
+
       span {
         margin: 0 20px;
         font-size: 10px;
       }
+
       .active {
         color: #b19777;
       }
@@ -130,5 +165,5 @@ img {
 }
 
 .no-padding {
-  padding: 0!important;
+  padding: 0 !important;
 }

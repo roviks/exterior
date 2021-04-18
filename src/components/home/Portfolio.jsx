@@ -1,5 +1,5 @@
 import React from "react";
-import styled from 'styled-components';
+import styled from "styled-components";
 import { Section, SectionTitle } from "../../styles/section";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/components/effect-fade/effect-fade.scss";
@@ -30,7 +30,6 @@ export const PortfolioStyle = styled(Section)`
       }
     }
   }
-  
 `;
 
 function Portfolio() {
@@ -42,10 +41,10 @@ function Portfolio() {
             <div className="row justify-content-center">
               <SectionTitle className="col-lg-6 col-md-8 col-sm-10">
                 <h6 className="custom-font wow fadeInDown" data-wow-delay=".3s">
-                  Best Works
+                  Лучшие работы
                 </h6>
                 <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                  My Portfolio
+                  Моё портфолио
                 </h4>
               </SectionTitle>
             </div>
@@ -64,37 +63,13 @@ function Portfolio() {
             >
               <SwiperSlide>
                 <div className="content wow fadeInUp">
-                  <div className="item-img bg-img wow imago animated" style={{backgroundImage: `url(${require("../../assets/imgs/1.jpg").default})`}}></div>
-                  <div className="cont">
-                    <h6>
-                      <a href="#0">art &amp; illustration</a>
-                    </h6>
-                    <h4>
-                      <a href="#0">Natural plus modern.</a>
-                    </h4>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="content wow fadeInUp">
-                  <div className="item-img bg-img wow imago animated" style={{backgroundImage: `url(${require("../../assets/imgs/2.jpg").default})`}}></div>
-                  <div className="cont">
-                    <h6>
-                      <a href="#0">art &amp; illustration</a>
-                    </h6>
-                    <h4>
-                      <a href="#0">Natural plus modern.</a>
-                    </h4>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div
-                  className="content wow fadeInUp"
-                >
                   <div
                     className="item-img bg-img wow imago animated"
-                    style={{backgroundImage: `url(${require("../../assets/imgs/3.jpg").default})`}}
+                    style={{
+                      backgroundImage: `url(${
+                        require("../../assets/imgs/1.jpg").default
+                      })`,
+                    }}
                   ></div>
                   <div className="cont">
                     <h6>
@@ -107,12 +82,54 @@ function Portfolio() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-              <div
-                  className="content wow fadeInUp"
-                >
+                <div className="content wow fadeInUp">
                   <div
                     className="item-img bg-img wow imago animated"
-                    style={{backgroundImage: `url(${require("../../assets/imgs/1.jpg").default})`}}
+                    style={{
+                      backgroundImage: `url(${
+                        require("../../assets/imgs/2.jpg").default
+                      })`,
+                    }}
+                  ></div>
+                  <div className="cont">
+                    <h6>
+                      <a href="#0">art &amp; illustration</a>
+                    </h6>
+                    <h4>
+                      <a href="#0">Natural plus modern.</a>
+                    </h4>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="content wow fadeInUp">
+                  <div
+                    className="item-img bg-img wow imago animated"
+                    style={{
+                      backgroundImage: `url(${
+                        require("../../assets/imgs/3.jpg").default
+                      })`,
+                    }}
+                  ></div>
+                  <div className="cont">
+                    <h6>
+                      <a href="#0">art &amp; illustration</a>
+                    </h6>
+                    <h4>
+                      <a href="#0">Natural plus modern.</a>
+                    </h4>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="content wow fadeInUp">
+                  <div
+                    className="item-img bg-img wow imago animated"
+                    style={{
+                      backgroundImage: `url(${
+                        require("../../assets/imgs/1.jpg").default
+                      })`,
+                    }}
                   ></div>
                   <div className="cont">
                     <h6>

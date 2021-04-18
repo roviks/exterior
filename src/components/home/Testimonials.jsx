@@ -1,4 +1,4 @@
-import { useRef} from "react";
+import { useRef } from "react";
 import classNames from "classnames";
 import styled from "styled-components";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -22,8 +22,9 @@ export const Style = styled(Section)`
         font-style: italic;
         color: #333;
       }
-      &::after, &::before {
-        content: '';
+      &::after,
+      &::before {
+        content: "";
         position: absolute;
         height: 10px;
         background: #f7f7f7;
@@ -52,7 +53,7 @@ export const Style = styled(Section)`
       display: flex;
       align-items: center;
       &::after {
-        content: '';
+        content: "";
         width: 0;
         height: 0;
         border-top: 25px solid #f7f7f7;
@@ -89,17 +90,17 @@ export const Style = styled(Section)`
   .navs {
     span {
       padding: 10px 20px;
-      background: #f8f4f3!important;
+      background: #f8f4f3 !important;
       cursor: pointer;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
       left: 0;
       z-index: 5;
-      color: #b19777!important;
+      color: #b19777 !important;
       &:hover {
-        background: #b19777!important;
-        color: #fff!important;
+        background: #b19777 !important;
+        color: #fff !important;
       }
       &.next {
         left: auto;
@@ -109,104 +110,117 @@ export const Style = styled(Section)`
   }
 `;
 
-function Testimonials({theme}) {
-  const swiper = useRef()
+function Testimonials({ theme }) {
+  const swiper = useRef();
   const next = () => {
-    swiper.current.swiper.slideNext()
-  }
+    swiper.current.swiper.slideNext();
+  };
   const prev = () => {
-    swiper.current.swiper.slidePrev()
-  }
+    swiper.current.swiper.slidePrev();
+  };
   return (
-    <Style className={classNames("testimonials grid section-padding", {
-      "dark": theme === "dark"
-    })}>
+    <Style
+      className={classNames("testimonials grid section-padding", {
+        dark: theme === "dark",
+      })}
+    >
       <div className="container">
         <div className="section-head text-center">
           <div className="row justify-content-center">
             <SectionTitle className="col-lg-6 col-md-8 col-sm-10">
-              <h6 className="custom-font">Testimonials</h6>
-              <h4 className="playfont">What People Says?</h4>
+              <h6 className="custom-font">Отзывы</h6>
+              <h4 className="playfont">Что говорят люди?</h4>
             </SectionTitle>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-12">
             <Swiper
-                spaceBetween={0}
-                slidesPerView={2}
-                ref={swiper}
-                speed={1000}
-                loop={true}
-                onAfterInit={(swiper) => {}}
-                onSlideChangeTransitionEnd={(swiper) => {}}
-              >
-              <SwiperSlide
-                className="item slick-slide"
-                aria-hidden="true"
-              >
+              spaceBetween={0}
+              slidesPerView={2}
+              ref={swiper}
+              speed={1000}
+              loop={true}
+              onAfterInit={(swiper) => {}}
+              onSlideChangeTransitionEnd={(swiper) => {}}
+            >
+              <SwiperSlide className="item slick-slide" aria-hidden="true">
                 <span className="quote-icon">
-                  <img src={require("../../assets/imgs/quote.svg").default} alt="" />
+                  <img
+                    src={require("../../assets/imgs/quote.svg").default}
+                    alt=""
+                  />
                 </span>
                 <div className="cont">
                   <p className="playfont">
-                    "I just love their design for all stunning details. You must
-                    know what can you do for a project before taking it, but
-                    with Archo, the sky is the limit."
+                    "Мне просто нравится их дизайн за все потрясающие детали. Ты
+                    должен знать, что вы можете сделать для проекта, прежде чем
+                    взяться за него, но с Archo небо - это предел."
                   </p>
                 </div>
                 <div className="info">
                   <div className="author">
-                    <img src={require("../../assets/imgs/avatar-1.jpg").default} alt="" />
-                  </div>
-                  <h6>Alison Clutcher <span>Envato Customer</span> </h6>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide
-                className="item slick-slide"
-                aria-hidden="true"
-              >
-                <span className="quote-icon">
-                  <img src={require("../../assets/imgs/quote.svg").default} alt="" />
-                </span>
-                <div className="cont">
-                  <p className="playfont">
-                    "I just love their design for all stunning details. You must
-                    know what can you do for a project before taking it, but
-                    with Archo, the sky is the limit."
-                  </p>
-                </div>
-                <div className="info">
-                  <div className="author">
-                    <img src={require("../../assets/imgs/avatar-1.jpg").default} alt="" />
-                  </div>
-                  <h6>Jane Smith <span>Envato Customer</span> </h6>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide
-                className="item slick-slide"
-                aria-hidden="true"
-              >
-                <span className="quote-icon">
-                  <img src={require("../../assets/imgs/quote.svg").default} alt="" />
-                </span>
-                <div className="cont">
-                  <p className="playfont">
-                    "I just love their design for all stunning details. You must
-                    know what can you do for a project before taking it, but
-                    with Archo, the sky is the limit."
-                  </p>
-                </div>
-                <div className="info">
-                  <div className="author">
-                    <img src={require("../../assets/imgs/avatar-1.jpg").default} alt="" />
+                    <img
+                      src={require("../../assets/imgs/avatar-1.jpg").default}
+                      alt=""
+                    />
                   </div>
                   <h6>
-                    Peter Jefferson <span>Envato Customer</span>{" "}
+                    Абдурахим Болтабоев <span>ООО "ЗАЯ"</span>{" "}
                   </h6>
                 </div>
               </SwiperSlide>
-
+              <SwiperSlide className="item slick-slide" aria-hidden="true">
+                <span className="quote-icon">
+                  <img
+                    src={require("../../assets/imgs/quote.svg").default}
+                    alt=""
+                  />
+                </span>
+                <div className="cont">
+                  <p className="playfont">
+                    "Я действительно впечатлен тем, как быстро вы ответили на
+                    мое электронное письмо. Большое спасибо."
+                  </p>
+                </div>
+                <div className="info">
+                  <div className="author">
+                    <img
+                      src={require("../../assets/imgs/avatar-1.jpg").default}
+                      alt=""
+                    />
+                  </div>
+                  <h6>
+                    Джахонгир Артикходжаев <span>ООО "КАРТЕЛЬ"</span>{" "}
+                  </h6>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="item slick-slide" aria-hidden="true">
+                <span className="quote-icon">
+                  <img
+                    src={require("../../assets/imgs/quote.svg").default}
+                    alt=""
+                  />
+                </span>
+                <div className="cont">
+                  <p className="playfont">
+                    "Действительно хорошо. С каждым днем мне нравится внешний
+                    вид все больше и больше, потому что он делает мою жизнь
+                    намного проще. Хорошая работа над вашим экстерьером."
+                  </p>
+                </div>
+                <div className="info">
+                  <div className="author">
+                    <img
+                      src={require("../../assets/imgs/avatar-1.jpg").default}
+                      alt=""
+                    />
+                  </div>
+                  <h6>
+                    Бабушка Бэтмена <span>ООО "БЭТМЕН"</span>
+                  </h6>
+                </div>
+              </SwiperSlide>
             </Swiper>
             <div className="navs mt-30 wow fadeInUp">
               <span className="prev slick-arrow" onClick={prev}>

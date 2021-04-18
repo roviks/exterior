@@ -14,15 +14,15 @@ import {
 
 function Menu() {
   const [activeMenu, setActiveMenu] = useState(false);
-  const [activeSearch, setActiveSearch] = useState(false)
-  const [animate, setAnimate] = useState(false)
+  const [activeSearch, setActiveSearch] = useState(false);
+  const [animate, setAnimate] = useState(false);
   const closeMenu = () => {
     setAnimate(true);
     setTimeout(() => {
       setActiveSearch(false);
       setAnimate(false);
     }, 500);
-  }
+  };
   useEffect(() => {
     if (activeSearch || activeMenu) {
       document.body.classList.add("no-scroll");
@@ -76,49 +76,60 @@ function Menu() {
           </svg>{" "}
           EXTERIOR
         </Logo>
-        <ButtonToggler type="button" onClick={() =>  setActiveMenu(!activeMenu)}>
-          {(activeMenu) ? <i className="close fas fa-times" onClick={closeMenu}></i> : <i className="fas fa-bars"></i>}
+        <ButtonToggler type="button" onClick={() => setActiveMenu(!activeMenu)}>
+          {activeMenu ? (
+            <i className="close fas fa-times" onClick={closeMenu}></i>
+          ) : (
+            <i className="fas fa-bars"></i>
+          )}
         </ButtonToggler>
-        <Lists className={classNames({
-          "show": activeMenu
-        })}>
+        <Lists
+          className={classNames({
+            show: activeMenu,
+          })}
+        >
           <List>
-            <Link to="/">Home</Link>
+            <Link to="/">Главная</Link>
           </List>
           <List>
-            <Link to="/about">About</Link>
+            <Link to="/about">Обо мне</Link>
           </List>
           <List>
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/portfolio">Портфолио</Link>
           </List>
           <List>
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog">Блог</Link>
           </List>
           <List>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Контакты</Link>
           </List>
           <Icons className="social-icon">
-            <a href="#0">
+            <a href="https://www.facebook.com/">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#0">
+            <a href="https://twitter.com/">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#0">
+            <a href="https://www.behance.net/">
               <i className="fab fa-behance"></i>
             </a>
           </Icons>
           <Search className="search">
-            <div className={classNames("search-form text-center custom-font", {
-              "show": activeSearch,
-              "closing": animate
-            })}>
+            <div
+              className={classNames("search-form text-center custom-font", {
+                show: activeSearch,
+                closing: animate,
+              })}
+            >
               <form>
-                <input type="text" name="search" placeholder="Search" />
+                <input type="text" name="search" placeholder="Поиск" />
               </form>
               <i className="close fas fa-times" onClick={closeMenu}></i>
             </div>
-            <i className="fas fa-search" onClick={() => setActiveSearch(true)}></i>
+            <i
+              className="fas fa-search"
+              onClick={() => setActiveSearch(true)}
+            ></i>
           </Search>
         </Lists>
       </div>

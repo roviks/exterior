@@ -58,15 +58,18 @@ function Team() {
         <div class="section-head text-center">
           <div class="row justify-content-center">
             <SectionTitle class="col-lg-6 col-md-8 col-sm-10">
-              <h6 class="custom-font">Creative Minds</h6>
-              <h4 class="playfont">Our Employees</h4>
+              <h6 class="custom-font">Творческие умы</h6>
+              <h4 class="playfont">Наши сотрудники</h4>
             </SectionTitle>
           </div>
         </div>
         <div class="row">
           <div class="item col-lg-3 col-md-6">
             <div class="img">
-              <img src={require("../../assets/imgs/avatar-1.jpg").default} alt="" />
+              <img
+                src={require("../../assets/imgs/avatar-1.jpg").default}
+                alt=""
+              />
               <div class="social">
                 <a href="#0">
                   <i class="fab fa-facebook-f"></i>
@@ -83,13 +86,16 @@ function Team() {
               </div>
             </div>
             <div class="info">
-              <h5>Hasib sharif</h5>
-              <span>General Manager</span>
+              <h5>Абдурахман Одилов</h5>
+              <span>Генеральный директор</span>
             </div>
           </div>
           <div class="item col-lg-3 col-md-6">
             <div class="img">
-            <img src={require("../../assets/imgs/avatar-1.jpg").default} alt="" />
+              <img
+                src={require("../../assets/imgs/avatar-1.jpg").default}
+                alt=""
+              />
               <div class="social">
                 <a href="#0">
                   <i class="fab fa-facebook-f"></i>
@@ -106,13 +112,16 @@ function Team() {
               </div>
             </div>
             <div class="info">
-              <h5>Leio Man</h5>
-              <span>Founder</span>
+              <h5>Абдурахман Одилов</h5>
+              <span>Менеджер</span>
             </div>
           </div>
           <div class="item col-lg-3 col-md-6">
             <div class="img">
-            <img src={require("../../assets/imgs/avatar-1.jpg").default} alt="" />
+              <img
+                src={require("../../assets/imgs/avatar-1.jpg").default}
+                alt=""
+              />
               <div class="social">
                 <a href="#0">
                   <i class="fab fa-facebook-f"></i>
@@ -129,13 +138,16 @@ function Team() {
               </div>
             </div>
             <div class="info">
-              <h5>Jonson Leo</h5>
-              <span>Founder</span>
+              <h5>Абдурахман Одилов</h5>
+              <span>Основатель</span>
             </div>
           </div>
           <div class="item col-lg-3 col-md-6">
             <div class="img">
-            <img src={require("../../assets/imgs/avatar-1.jpg").default} alt="" />
+              <img
+                src={require("../../assets/imgs/avatar-1.jpg").default}
+                alt=""
+              />
               <div class="social">
                 <a href="#0">
                   <i class="fab fa-facebook-f"></i>
@@ -152,8 +164,8 @@ function Team() {
               </div>
             </div>
             <div class="info">
-              <h5>Robert Front</h5>
-              <span>CEO Founder</span>
+              <h5>Абдурахман Одилов</h5>
+              <span>Экстерьер дизайнер</span>
             </div>
           </div>
         </div>

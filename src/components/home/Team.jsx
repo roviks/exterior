@@ -4,7 +4,7 @@ import { Section } from "../../styles/section";
 import "swiper/components/effect-fade/effect-fade.scss";
 import "swiper/swiper.scss";
 
-export const TeamStyle = styled(Section)`
+const TeamStyle = styled(Section)`
   &::after {
     content: "";
     position: absolute;
@@ -49,52 +49,52 @@ export const TeamStyle = styled(Section)`
   }
 
   .slide {
-      padding: 0 15px;
-      width: 50%;
-      &:hover {
-        .social {
-          opacity: 1;
-          left: 0;
-        }
-      }
-      .img {
-        position: relative;
-        overflow: hidden;
-      }
-      img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-      .info {
-        margin-top: 20px;
-        text-align: center;
-        h5 {
-          font-size: 18px;
-          margin-bottom: 2px;
-        }
-        span {
-          color: #777;
-          font-size: 14px;
-        }
-      }
+    padding: 0 15px;
+    width: 50%;
+    &:hover {
       .social {
-        position: absolute;
-        top: 0;
-        left: -40px;
-        background-color: #fff;
-        padding: 20px 10px;
-        z-index: 2;
-        opacity: 0;
-        transition: all 0.4s;
-        a {
-          display: block;
-          font-size: 13px;
-          margin-top: 10px;
-          color: #b19777;
-        }
+        opacity: 1;
+        left: 0;
       }
     }
+    .img {
+      position: relative;
+      overflow: hidden;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .info {
+      margin-top: 20px;
+      text-align: center;
+      h5 {
+        font-size: 18px;
+        margin-bottom: 2px;
+      }
+      span {
+        color: #777;
+        font-size: 14px;
+      }
+    }
+    .social {
+      position: absolute;
+      top: 0;
+      left: -40px;
+      background-color: #fff;
+      padding: 20px 10px;
+      z-index: 2;
+      opacity: 0;
+      transition: all 0.4s;
+      a {
+        display: block;
+        font-size: 13px;
+        margin-top: 10px;
+        color: #b19777;
+      }
+    }
+  }
 `;
 
 function Team() {
@@ -104,12 +104,19 @@ function Team() {
         <div className="row">
           <div className="col-lg-5">
             <div className="tit">
-              <h6 className="custom-font mb-10">Some thoughts from Us</h6>
-              <h3>About me</h3>
+              <h6 className="custom-font mb-10">Некоторые мысли от меня</h6>
+              <h3>Обо мне</h3>
               <p>
-                We feel proud for our expert team members beatae ipsum dolor sit
-                amet, consectetur adipisicing elit mauris vitae consequat nibh,
-                vitae interdum mi.
+                Приветствую Вас! Меня зовут Абдурахмон Одилов, я дизайнер
+                экстерьера. Окончил ТАСИ. Я занимаюсь созданием проектов
+                экстерьеров для частных и корпоративных заказчиков с 2005 года.
+                Свои проекты я создаю на основе сложного стилевого смешения,
+                делая акцент на современные тенденции в дизайне, и применяя
+                архитектурный подход. Для меня стиль – это рафинированность
+                каждой детали и логика. Я ценю пространство и воздух в
+                интерьере. Очень важно, чтобы интерьер был актуален не только
+                сегодня, и его функциональность не вызывала вопросов. Надеюсь, у
+                нас общие ценности :)
               </p>
             </div>
           </div>
@@ -135,8 +142,8 @@ function Team() {
               </div>
             </div>
             <div className="info">
-              <h5>Hasib sharif</h5>
-              <span>Designer</span>
+              <h5>Абдурахмон Одилов</h5>
+              <span>Экстерьер Дизайнер</span>
             </div>
           </div>
         </div>

@@ -71,7 +71,7 @@ function Skills() {
           <div class="col-lg-6 valign">
             <div class="skills-box full-width">
               <div class="skill-item">
-                <h6>Architecture</h6>
+                <h6>Архитектура</h6>
                 <div class="skill-progress">
                   <div
                     class="progres custom-font"
@@ -81,7 +81,7 @@ function Skills() {
                 </div>
               </div>
               <div class="skill-item">
-                <h6>Interior Design</h6>
+                <h6>Экстерьер дизайн</h6>
                 <div class="skill-progress">
                   <div
                     class="progres custom-font"
@@ -91,7 +91,7 @@ function Skills() {
                 </div>
               </div>
               <div class="skill-item">
-                <h6>3D Modeling</h6>
+                <h6>3Д моделирование</h6>
                 <div class="skill-progress">
                   <div
                     class="progres custom-font"
@@ -105,16 +105,19 @@ function Skills() {
           <div class="col-lg-6">
             <div class="content">
               <h4 class="playfont line-height-50 mb-20">
-                Providing Customized Design Solutions That Fits Every Space .
+                Предоставление индивидуальных дизайнерских решений, подходящих
+                для любого помещения.
               </h4>
               <p class="mb-10">
-                Beyond more stoic this along goodness hey this this wow ipsum
-                manate far impressive manifest farcrud opened inside.
+                Далеко-далеко за словесными горами в стране гласных и согласных
+                живут рыбные тексты. Наш толку страну от всех маленький.
+                Необходимыми грустный дорогу себя коварный.
               </p>
               <p>
-                Fustered impressive manifest crud opened inside owing punitively
-                around forewent and after wasteful telling sprang coldly and
-                spoke less clients.{" "}
+                Далеко-далеко за словесными горами в стране гласных и согласных
+                живут рыбные тексты. Дорогу коварный даль имеет пустился
+                продолжил но до, силуэт домах свою на берегу рыбными
+                переписывается ты великий путь большого которое. Подзаголовок!
               </p>
             </div>
           </div>

@@ -1,8 +1,9 @@
 import React from "react";
 import { Section, SectionTitle } from "../../styles/section";
-import styled from 'styled-components';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-export const BlogStyle = styled(Section)`
+const BlogStyle = styled(Section)`
   .item {
     text-align: center;
     .more {
@@ -11,7 +12,7 @@ export const BlogStyle = styled(Section)`
       text-transform: uppercase;
       letter-spacing: 1px;
       border-bottom: 1px solid #b19777;
-      transition: all .4s;
+      transition: all 0.4s;
     }
     .info {
       margin-bottom: 15px;
@@ -47,71 +48,65 @@ function Blog() {
         <div className="section-head text-center">
           <div className="row justify-content-center">
             <SectionTitle className="col-lg-6 col-md-8 col-sm-10">
-              <h6
-                className="custom-font"
-              >
-                Latest News
-              </h6>
-              <h4
-                className="playfont wow flipInX"
-              >
-                My Blog
-              </h4>
+              <h6 className="custom-font">Последние новости</h6>
+              <h4 className="playfont wow flipInX">Мой блог</h4>
             </SectionTitle>
           </div>
         </div>
 
         <div className="row">
           <div className="col-md-6">
-            <div
-              className="item md-mb50"
-            >
+            <div className="item md-mb50">
               <div className="post-img">
                 <div className="img">
-                  <img src={require("../../assets/imgs/blog-1.jpg").default} alt="" />
+                  <img
+                    src={require("../../assets/imgs/blog-1.jpg").default}
+                    alt=""
+                  />
                 </div>
               </div>
               <div className="cont">
                 <div className="info">
-                  <a href="#0">Alex Smith</a>
-                  <a href="#0">Aug 06 2019</a>
+                  <a href="#0">Абдурахмон Одилов</a>
+                  <a href="#0">авг 06 2019</a>
                 </div>
 
                 <h5 className="playfont">
-                  <a href="#0">
-                    In Good Taste: Mark Finlay Architects and Interiors
-                  </a>
+                  <Link to="/blog-details">
+                    CSS: работа с текстом на изображениях
+                  </Link>
                 </h5>
 
-                <a href="blog-details.html" className="more">
-                  <span className="custom-font">Read More</span>
-                </a>
+                <Link to="/blog-details" className="more">
+                  <span className="custom-font">Подробнее</span>
+                </Link>
               </div>
             </div>
           </div>
 
           <div className="col-md-6">
-            <div
-              className="item md-mb50"
-            >
+            <div className="item md-mb50">
               <div className="post-img">
                 <div className="img">
-                  <img src={require("../../assets/imgs/blog-1.jpg").default} alt="" />
+                  <img
+                    src={require("../../assets/imgs/blog-1.jpg").default}
+                    alt=""
+                  />
                 </div>
               </div>
               <div className="cont">
                 <div className="info">
-                  <a href="#0">Alex Smith</a>
-                  <a href="#0">Aug 06 2019</a>
+                  <a href="#0">Абдурахмон Одилов</a>
+                  <a href="#0">май 06 2019</a>
                 </div>
                 <h5 className="playfont">
-                  <a href="#0">
-                    Five Things You Should Know About Modern Furniture.
-                  </a>
+                  <Link to="/blog-details">
+                    Пять вещей, которые вы должны знать о современной мебели.
+                  </Link>
                 </h5>
-                <a href="blog-details.html" className="more">
-                  <span className="custom-font">Read More</span>
-                </a>
+                <Link to="/blog-details" className="more">
+                  <span className="custom-font">Подробнее</span>
+                </Link>
               </div>
             </div>
           </div>

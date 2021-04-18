@@ -79,7 +79,7 @@ function About() {
                     <h3>
                       <span class="nbr custom-font">352</span>
                     </h3>
-                    <h6>Projects Completed</h6>
+                    <h6>Завершенных проектов</h6>
                   </div>
                 </div>
                 <div class="col-sm-6">
@@ -87,16 +87,16 @@ function About() {
                     <h3>
                       <span class="nbr custom-font">567</span>
                     </h3>
-                    <h6>Satisfied Clients</h6>
+                    <h6>Довольных клиентов</h6>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="item">
                     <h3>
                       <span class="nbr custom-font">656</span>
-                      <i>M</i>
+                      <i>$</i>
                     </h3>
-                    <h6>Monthly Revenue</h6>
+                    <h6>Ежемесячный доход</h6>
                   </div>
                 </div>
                 <div class="col-sm-6">
@@ -104,7 +104,7 @@ function About() {
                     <h3>
                       <span class="nbr custom-font">17</span>
                     </h3>
-                    <h6>Awards Won</h6>
+                    <h6>Наград выигранно</h6>
                   </div>
                 </div>
               </div>
@@ -113,17 +113,21 @@ function About() {
           <div class="col-lg-6">
             <div class="txt-cont">
               <p class="mb-20">
-                Maecenas imperdiet ante eget hendrerit posuere. Nunc urna
-                libero, congue porta nibh a, semper feugiat sem. Sed auctor dui
-                eleifend, scelerisque eros ut.
+                Далеко-далеко за словесными горами в стране гласных и согласных
+                живут рыбные тексты. Пунктуация алфавит ручеек которое
+                повстречался необходимыми, залетают выйти домах наш курсивных?
+                Страну дорогу его знаках океана? Ты грустный журчит точках
+                продолжил заманивший злых, путь семантика это собрал даль
+                повстречался необходимыми силуэт, текстами коварных даже, не сих
+                заголовок то текста семь предложения. Использовало букв назад
+                наш пор языком себя даль там!
               </p>
               <p>
-                Curabitur sed iaculis dolor, non congue ligula. Maecenas
-                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue
-                porta nibh a, semper feugiat sem. Sed auctor dui eleifend,
-                scelerisque eros ut, pellentesque nibh. Nam lacinia suscipit
-                accumsan. Donec sodales, neque vitae rutrum convallis, nulla
-                tortor pharetra odio, in varius ante ante sed nisi.
+                Далеко-далеко за, словесными горами в стране гласных и согласных
+                живут рыбные тексты. Подзаголовок, реторический лучше. Своих
+                деревни власти образ лучше точках рекламных пор журчит! Ему
+                силуэт рукопись встретил вдали языкового языком до назад себя
+                запятых текст вскоре образ строчка, курсивных раз буквенных.
               </p>
             </div>
           </div>
