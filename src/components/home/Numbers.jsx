@@ -66,7 +66,7 @@ function Numbers() {
     <NumbersStyle className="numbers section-padding pt-0">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-3 col-6 mb-20">
             <div className="item">
               <h3>
                 <span className="nbr custom-font">352</span>
@@ -74,7 +74,7 @@ function Numbers() {
               <h6>Завершенных проектов</h6>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-3 col-6">
             <div className="item">
               <h3>
                 <span className="nbr custom-font">567</span>
@@ -82,7 +82,7 @@ function Numbers() {
               <h6>Довольных клиентов</h6>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-3 col-6">
             <div className="item">
               <h3>
                 <span className="nbr custom-font">656</span>
@@ -91,7 +91,7 @@ function Numbers() {
               <h6>Ежемесячный доход</h6>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-3 col-6">
             <div className="item">
               <h3>
                 <span className="nbr custom-font">17</span>

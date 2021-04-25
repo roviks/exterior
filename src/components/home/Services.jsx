@@ -69,7 +69,7 @@ function Services() {
           <h4 className="playfont"> Мои услуги </h4>
         </SectionTitle>
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4 mb-20">
             <div
               className="item-bx bg-img"
               style={{
@@ -91,7 +91,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-lg-4 mb-20">
             <div
               className="item-bx bg-img"
               style={{

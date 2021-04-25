@@ -33,6 +33,9 @@ export const Header = styled.header`
         left: 50%;
         text-align: center;
         transform: translate(-50%, -50%);
+        @media (max-width: 767px) {
+          width: 80%;
+        }
       }
       h1 {
         font-size: 75px;
@@ -41,6 +44,12 @@ export const Header = styled.header`
         letter-spacing: 2px;
         margin-bottom: 20px;
         font-family: var(--playFont);
+        @media (max-width: 992px) {
+          font-size: 55px;
+        }
+        @media (max-width: 767px) {
+          font-size: 35px;
+        }
       }
       &-counter {
         position: absolute;
@@ -50,6 +59,10 @@ export const Header = styled.header`
         font-weight: 400;
         z-index: 5;
         font-family: var(--tekoFont);
+
+        @media (max-width: 767px) {
+          font-size: 20px;
+        }
       }
     }
     &-pagination {
@@ -60,6 +73,9 @@ export const Header = styled.header`
         font-family: var(--tekoFont);
         color: transparent;
         -webkit-text-stroke: 0.5px #fff;
+        @media (max-width: 992px) {
+          font-size: 40px;
+        }
         &::after {
           content: "/";
           color: #fff;

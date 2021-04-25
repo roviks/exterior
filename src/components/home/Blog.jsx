@@ -85,7 +85,7 @@ function Blog() {
           </div>
 
           <div className="col-md-6">
-            <div className="item md-mb50">
+            <div className="item">
               <div className="post-img">
                 <div className="img">
                   <img

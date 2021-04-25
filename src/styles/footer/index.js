@@ -44,6 +44,10 @@ export const FooterStyle = styled.footer`
       text-transform: uppercase;
       letter-spacing: 2px;
       margin-bottom: 30px;
+      @media (max-width: 992px) {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
     }
   }
   .abot {
@@ -62,7 +66,7 @@ export const FooterStyle = styled.footer`
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 50%;
         margin-right: 7px;
-        transition: all .4s;
+        transition: all 0.4s;
         &:hover {
           border-color: #b19777;
           color: #b19777;

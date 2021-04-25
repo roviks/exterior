@@ -74,23 +74,23 @@ function About() {
           <div class="col-lg-6">
             <div class="numbers">
               <div class="row">
-                <div class="col-sm-6">
-                  <div class="item mb-50">
+                <div class="col-sm-6  mb-20">
+                  <div class="item">
                     <h3>
                       <span class="nbr custom-font">352</span>
                     </h3>
                     <h6>Завершенных проектов</h6>
                   </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="item mb-50">
+                <div class="col-sm-6  mb-20">
+                  <div class="item">
                     <h3>
                       <span class="nbr custom-font">567</span>
                     </h3>
                     <h6>Довольных клиентов</h6>
                   </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6  mb-20">
                   <div class="item">
                     <h3>
                       <span class="nbr custom-font">656</span>
@@ -99,7 +99,7 @@ function About() {
                     <h6>Ежемесячный доход</h6>
                   </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6  mb-20">
                   <div class="item">
                     <h3>
                       <span class="nbr custom-font">17</span>

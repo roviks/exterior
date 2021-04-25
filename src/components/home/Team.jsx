@@ -51,6 +51,9 @@ const TeamStyle = styled(Section)`
   .slide {
     padding: 0 15px;
     width: 50%;
+    @media (max-width: 992px) {
+      margin: 0 auto;
+    }
     &:hover {
       .social {
         opacity: 1;
@@ -106,7 +109,7 @@ function Team() {
             <div className="tit">
               <h6 className="custom-font mb-10">Некоторые мысли от меня</h6>
               <h3>Обо мне</h3>
-              <p>
+              <p className="mb-20">
                 Приветствую Вас! Меня зовут Абдурахмон Одилов, я дизайнер
                 экстерьера. Окончил ТАСИ. Я занимаюсь созданием проектов
                 экстерьеров для частных и корпоративных заказчиков с 2005 года.

@@ -8,7 +8,6 @@ import { Section, SectionTitle } from "../../styles/section";
 export const Style = styled(Section)`
   .item {
     position: relative;
-    margin: 0 20px;
     margin-top: 11px;
 
     .cont {
@@ -74,7 +73,8 @@ export const Style = styled(Section)`
         }
       }
       .author {
-        width: 70px;
+        min-width: 70px;
+        flex: 0 1 70px;
         height: 70px;
         border-radius: 50%;
         overflow: hidden;
@@ -124,7 +124,7 @@ function Testimonials({ theme }) {
         dark: theme === "dark",
       })}
     >
-      <div className="container">
+      <div className="container-fluid">
         <div className="section-head text-center">
           <div className="row justify-content-center">
             <SectionTitle className="col-lg-6 col-md-8 col-sm-10">
@@ -136,11 +136,17 @@ function Testimonials({ theme }) {
         <div className="row">
           <div className="col-lg-12">
             <Swiper
-              spaceBetween={0}
-              slidesPerView={2}
+              spaceBetween={20}
+              slidesPerView={1}
               ref={swiper}
               speed={1000}
               loop={true}
+              breakpoints={{
+                575: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+              }}
               onAfterInit={(swiper) => {}}
               onSlideChangeTransitionEnd={(swiper) => {}}
             >

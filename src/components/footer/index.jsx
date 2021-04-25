@@ -6,7 +6,7 @@ export default function Footer() {
     <FooterStyle className="main-footer dark">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-4">
             <div className="item abot">
               <div className="logo-footer mb-20">
                 <a href="#0" className="logo">
@@ -70,7 +70,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-lg-2 offset-lg-1">
+          <div className="col-lg-2 offset-lg-1 col-md-4">
             <div className="item usful-links">
               <div className="fothead">
                 <h6>Полезные ссылки</h6>
@@ -95,7 +95,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-4">
             <div className="item fotcont">
               <div className="fothead">
                 <h6>Позвонить</h6>
@@ -108,7 +108,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6">
             <div className="item fotcont">
               <div className="fothead">
                 <h6>Написать</h6>
@@ -123,7 +123,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6">
             <div className="item fotcont">
               <div className="fothead">
                 <h6>Посетить</h6>
@@ -136,12 +136,12 @@ export default function Footer() {
       <div className="sub-footer">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-lg-8 col-sm-7">
               <div className="text-left">
                 <p>© 2020 А. Одилов / Сделано с любовью</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-sm-5">
               <div className="text-right">
                 <p>Все права защищены.</p>
               </div>

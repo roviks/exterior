@@ -14,6 +14,11 @@ const ServicesStyle = styled(Section)`
     border: 1px solid #eee;
     border-right: 0;
     transition: all 0.4s;
+    @media (max-width: 575px) {
+      width: 90%;
+      margin: 0 auto;
+      border: 1px solid #eee;
+    }
 
     h6 {
       font-size: 18px;
@@ -42,7 +47,7 @@ function Services() {
   return (
     <ServicesStyle>
       <div class="container ontop">
-        <div class="row">
+        <div class="row mt-30">
           <div class="col-lg-3 col-md-6 item-bx">
             <h2 class="custom-font numb">01</h2>
             <h6 class="mb-20">Архитектура</h6>

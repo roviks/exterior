@@ -64,7 +64,7 @@ function Team() {
           </div>
         </div>
         <div class="row">
-          <div class="item col-lg-3 col-md-6">
+          <div class="item col-md-3 col-sm-6 mb-20">
             <div class="img">
               <img
                 src={require("../../assets/imgs/avatar-1.jpg").default}
@@ -90,7 +90,7 @@ function Team() {
               <span>Генеральный директор</span>
             </div>
           </div>
-          <div class="item col-lg-3 col-md-6">
+          <div class="item col-md-3 col-sm-6">
             <div class="img">
               <img
                 src={require("../../assets/imgs/avatar-1.jpg").default}
@@ -116,7 +116,7 @@ function Team() {
               <span>Менеджер</span>
             </div>
           </div>
-          <div class="item col-lg-3 col-md-6">
+          <div class="item col-md-3 col-sm-6">
             <div class="img">
               <img
                 src={require("../../assets/imgs/avatar-1.jpg").default}
@@ -142,7 +142,7 @@ function Team() {
               <span>Основатель</span>
             </div>
           </div>
-          <div class="item col-lg-3 col-md-6">
+          <div class="item col-md-3 col-sm-6">
             <div class="img">
               <img
                 src={require("../../assets/imgs/avatar-1.jpg").default}

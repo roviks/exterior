@@ -54,12 +54,16 @@ function Portfolio() {
           <div className="col-lg-12 no-padding">
             <Swiper
               spaceBetween={30}
-              slidesPerView={2}
+              slidesPerView={1}
               speed={1000}
               loop={true}
+              breakpoints={{
+                480: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+              }}
               centeredSlides={true}
-              onAfterInit={(swiper) => {}}
-              onSlideChangeTransitionEnd={(swiper) => {}}
             >
               <SwiperSlide>
                 <div className="content wow fadeInUp">
